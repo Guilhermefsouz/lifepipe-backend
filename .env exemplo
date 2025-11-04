@@ -1,0 +1,16 @@
+# Prisma
+# Connect to Supabase via connection pooling
+DATABASE_URL=""
+
+# Direct connection to the database. Used for migrations
+DIRECT_URL=""
+
+#Cofig do token JWT
+JTW_SECRET=
+JWT_TTL="30d" #colocar o tempo de validade do token ("60", "6 days", "20h", "5d")
+JWT_AUDIENCE=http://localhost:3000
+JWT_TOKEN_ISSUER=http://localhost:3000
+
+
+FRONTEND_URL=http://localhost:3000
+PORT=4000
